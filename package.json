@@ -1,0 +1,9 @@
+{
+  "name": "f12017-telemetry",
+  "version": "1.0.0",
+  "description": "Telemetry module for F1 2017 telemetry data",
+  "main": "Telemetry.js",
+  "author": "Kevin Schreuder <kevinschreuder@icloud.com> (http://kevinschreuder.com)",
+  "keywords": ["telemetry", "f12017", "f1", "data", "simraching", "racing", "sim"],
+  "license": "MIT"
+}
