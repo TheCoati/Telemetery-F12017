@@ -1,6 +1,6 @@
 {
   "name": "f12017-telemetry",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Telemetry module for F1 2017 telemetry data",
   "main": "Telemetry.js",
   "author": "Kevin Schreuder <kevinschreuder@icloud.com> (http://kevinschreuder.com)",
