@@ -5,5 +5,12 @@
   "main": "Telemetry.js",
   "author": "Kevin Schreuder <kevinschreuder@icloud.com> (http://kevinschreuder.com)",
   "keywords": ["telemetry", "f12017", "f1", "data", "simraching", "racing", "sim"],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/KSchreuder/Telementery-F12017.git"
+  },
+  "bugs": {
+    "url" : "https://github.com/KSchreuder/Telementery-F12017/issues"
+  },
   "license": "MIT"
 }
