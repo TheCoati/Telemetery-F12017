@@ -5,7 +5,7 @@ const Packet = require('./Packet');
 
 /**
  * @author Kevin Schreuder <kevinschreuder@icloud.com>
- * @licence MIT
+ * @license MIT
  * @type {module.Telemetry} Main telemetry data class
  */
 

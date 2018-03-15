@@ -2,7 +2,7 @@
 
 /**
  * @author Kevin Schreuder
- * @licence MIT <https://opensource.org/licenses/MIT>
+ * @license MIT <https://opensource.org/licenses/MIT>
  * @type {module.Packet} Contains all telemetry data
  */
 
