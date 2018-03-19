@@ -17,4 +17,6 @@ telemetry.on("data", (data) => {
     console.log("Speed: " + data.getKmhSpeed() + "Km/h");
 });
 ```
-###
+####
+ **Documentation**
+[Documentation page](https://kschreuder.github.io/Telemetery-F12017/)
