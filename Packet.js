@@ -63,6 +63,27 @@ module.exports = class Packet {
     }
 
     /**
+     * Current speed in miles per hour
+     * @param floor {boolean} Floor value to no decimals
+     * @param speed {number} Fallback value if no buffer data is present
+     * @returns {number} The current speed in Mp/h
+     */
+
+    getMphSpeed(floor = true, speed = 0) {
+
+        if (this._data) {
+
+            speed = this.getSpeed();
+            speed = speed * 2.236936;
+            speed = (floor ? Math.floor(speed) : speed);
+
+        }
+
+        return speed;
+
+    }
+
+    /**
      * Get the current engine RPM
      * @param floor {boolean} Floor value to no decimals
      * @param rpm {number} Fallback value if no buffer data is present
